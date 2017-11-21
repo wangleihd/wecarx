@@ -20,6 +20,9 @@ var logout = require('./routes/logout');
 var register = require('./routes/register');
 const api = require('./routes/apis');
 
+
+
+
 var app = express();
 app.use(session({
   resave: true,
